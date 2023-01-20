@@ -1,0 +1,23 @@
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    width: 100vmin;
+}
+
+.time {
+    font-family: Aznauri;
+    font-size: 20vmin;
+    text-align: center;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+@font-face {
+    font-family: Aznauri;
+    src: url('../font/Aznauri.ttf');
+}
